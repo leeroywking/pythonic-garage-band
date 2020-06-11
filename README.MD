@@ -45,15 +45,16 @@ tests/test_pythonic_garage_band.py ...........                                  
 ----------- coverage: platform linux, python 3.8.2-final-0 -----------
 Name                                Stmts   Miss  Cover
 -------------------------------------------------------
-pythonic_garage_band/Band.py           48      8    83%
-pythonic_garage_band/Bassist.py        10      2    80%
-pythonic_garage_band/Drummer.py        10      2    80%
-pythonic_garage_band/Guitarist.py      10      5    50%
+pythonic_garage_band/Band.py           52      7    87%
+pythonic_garage_band/Bassist.py         6      0   100%
+pythonic_garage_band/Drummer.py         6      0   100%
+pythonic_garage_band/Guitarist.py       6      3    50%
 pythonic_garage_band/Musician.py       13      6    54%
-pythonic_garage_band/Vocalist.py       10      2    80%
+pythonic_garage_band/Vocalist.py        6      0   100%
 pythonic_garage_band/__init__.py        1      0   100%
 -------------------------------------------------------
-TOTAL                                 102     25    75%
+TOTAL                                  90     16    82%
+
 ```
 
 
