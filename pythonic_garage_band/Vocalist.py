@@ -6,11 +6,3 @@ class Vocalist(Musician):
         self.instrument = "Vocals"
         self.name = name
         pass
-
-    def __repr__(self):
-        return f"Vocalist repr"
-
-    def __str__(self):
-        return f"Vocalist str"
-
-   

@@ -5,10 +5,11 @@ class Musician:
         pass
 
     def __repr__(self):
-        return f"Musician repr"
+        return f"name:{self.name} instrument:{self.instrument}"
 
     def __str__(self):
-        pass
+        return f"{self.name}"
+        
 
     def get_instrument(self):
         return self.instrument

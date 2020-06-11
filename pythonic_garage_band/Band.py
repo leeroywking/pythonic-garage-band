@@ -19,11 +19,16 @@ class Band:
         bands.append(self)
 
     def __repr__(self):
-        output = f"This is the repr string"
+        memberslist = str([member.name for member in self.members])
+        # print(memberslist)
+        output = f"members:{memberslist} name:{self.name}"
         return output
 
     def __str__(self):
-        return f"this is the str string"
+        list_of_members = ""
+        for member in self.members:
+            list_of_members += member.name + " "
+        return f"This class instantiates a band with members: {list_of_members} and a name:{self.name}"
 
     def play_solos(self):
         output = ""

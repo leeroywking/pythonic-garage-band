@@ -7,8 +7,3 @@ class Drummer(Musician):
         self.name = name
         pass
 
-    def __repr__(self):
-        return f"Drummer repr"
-
-    def __str__(self):
-        return f"Drummer str"

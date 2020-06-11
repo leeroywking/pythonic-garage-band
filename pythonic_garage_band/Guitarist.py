@@ -6,9 +6,3 @@ class Guitarist(Musician):
         self.instrument = "Guitar"
         self.name = name
         pass
-
-    def __repr__(self):
-        return f"Guitarist repr"
-
-    def __str__(self):
-        return f"Guitarist str"

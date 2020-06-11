@@ -79,3 +79,10 @@ def test_garfunkle_and_oats_load():
         new_gfao_solos
         == "Kate Micucci plays a sick solo with their Vocals\nRiki Lindhome plays a sick solo with their Vocals\n"
     )
+
+
+def test_band_str():
+    band1 = Band("Smashing Pumpkins", [])
+    band1.add_member(Vocalist("William Patrick CorganJr."))
+    expectedout = "This class instantiates a band with members: William Patrick CorganJr.  and a name:Smashing Pumpkins"
+    assert str(band1) == expectedout
